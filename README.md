@@ -22,6 +22,10 @@ Use Docker's composer image to mount the directories
 
     docker run --rm -v $(pwd):/app composer install
     
+Renamed the **.example.env** file to **.env**
+
+    cp .example.env .env
+    
 ### Step 3
 
 Running the Containers
